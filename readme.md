@@ -8,3 +8,4 @@ Interesting about Go:
 - intuitive use of Map -> JSON like, very similar like a slice
 - try avoiding shadowing at all times!
 - avoiding indentation and deep nesting. Try {} finally {} will be replaced by defered in the middle of the function.
+- the stack in Go can dynamically grow. Optimize the programs to allocate as much as possible on the stack.

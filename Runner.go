@@ -5,4 +5,5 @@ func main() {
 	compositeTypes()
 	blocksShadowsContrulStructures()
 	testFuctions()
+	pointers()
 }
