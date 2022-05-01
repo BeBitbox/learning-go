@@ -9,3 +9,6 @@ Interesting about Go:
 - try avoiding shadowing at all times!
 - avoiding indentation and deep nesting. Try {} finally {} will be replaced by defered in the middle of the function.
 - the stack in Go can dynamically grow. Optimize the programs to allocate as much as possible on the stack.
+- Objects in Go: 'type struct', they can be called even though they are nil! If you want to modify the object in the function, take a pointer as receiver, because default its a copy!
+- No inheritance, but rather composition
+- No enums

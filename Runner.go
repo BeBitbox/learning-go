@@ -6,4 +6,5 @@ func main() {
 	blocksShadowsContrulStructures()
 	testFuctions()
 	pointers()
+	Types()
 }
